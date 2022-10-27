@@ -1,6 +1,23 @@
 @import "./others/colors.scss";
 @import "./others/page.scss";
 
-.body{
-    background-image: none;
+*{
+    padding: 0;
+    margin: 0;
+}
+.formBody{
+    background-color: #131212f1;
+    width: 450px;
+    height: auto;
+}
+
+body{
+    background-image: url(../images/backgroundLp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.topLogo{
+    width: 180px;
 }
