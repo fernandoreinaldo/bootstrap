@@ -1,3 +1,9 @@
+* {
+  padding: 0px;
+}
 
+.button {
+  border-radius: 80%;
+}
 
 /*# sourceMappingURL=style.css.map */
