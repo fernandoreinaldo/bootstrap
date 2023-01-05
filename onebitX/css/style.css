@@ -1,9 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
 * {
-  padding: 0px;
+  color: white;
 }
 
-.button {
-  border-radius: 80%;
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
