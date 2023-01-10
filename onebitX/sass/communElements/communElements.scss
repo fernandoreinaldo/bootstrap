@@ -3,8 +3,8 @@
     font-weight: bold;
 }
 
-#navItem{
-    &:hover{
+#navItem {
+    &:hover {
         color: $link-hover;
     }
 }
@@ -53,4 +53,24 @@
 
 .copyFR {
     color: $copy-color;
+}
+
+// Media Query
+
+@media(max-width: 405px) {
+    .logoPC{
+        width: 180px;
+        margin-top: 15px;
+    }
+
+    .footer{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 350px) {
+    .logoPC{
+        width: 150px;
+        margin-top: 15px;
+    }
 }

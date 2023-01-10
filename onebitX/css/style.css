@@ -56,6 +56,21 @@
   color: #555252;
 }
 
+@media (max-width: 405px) {
+  .logoPC {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPC {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
 .container00.container01 {
   background-image: url(../../images/home/01.jpg);
 }
