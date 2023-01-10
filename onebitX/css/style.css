@@ -98,4 +98,21 @@
   margin-bottom: -25px;
 }
 
+@media (max-width: 750px) {
+  .tittlePadding {
+    margin-top: 120px;
+  }
+  .shortTitle,
+.mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 480px) {
+  .shortTitle,
+.mediumTitle {
+    font-size: 40px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
