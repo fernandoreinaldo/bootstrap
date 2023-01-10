@@ -3,6 +3,12 @@
     font-weight: bold;
 }
 
+#navItem{
+    &:hover{
+        color: $link-hover;
+    }
+}
+
 .container00 {
     min-height: 100vh;
     background-size: cover;
@@ -16,17 +22,17 @@
     margin-top: 5px;
 }
 
-.logoPC{
+.logoPC {
     width: 240px;
     margin-left: -10px;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
-#button{
+#button {
     padding: $padding-button;
 }
 
-.footer{
+.footer {
     background-color: black;
     height: 15vh;
     font-size: 12px;
@@ -39,8 +45,12 @@
         text-decoration: none;
         color: white;
 
-        &:hover{
+        &:hover {
             color: $link-hover;
         }
     }
+}
+
+.copyFR {
+    color: $copy-color;
 }
