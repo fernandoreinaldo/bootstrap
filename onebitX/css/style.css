@@ -90,12 +90,12 @@
 
 .shortTitle {
   width: 550px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 .mediumTitle {
   width: 650px;
-  margin-bottom: -25px;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 750px) {
@@ -113,6 +113,21 @@
 .mediumTitle {
     font-size: 40px;
   }
+}
+.container00.container05 {
+  background-image: url(../../images/falcon9/01.jpg);
+}
+.container00.container06 {
+  background-image: url(../../images/falcon9/02.jpg);
+}
+.container00.container07 {
+  background-image: url(../../images/falcon9/03.jpg);
+}
+.container00.container08 {
+  background-image: url(../../images/falcon9/08.jpg);
+}
+.container00.container09 {
+  background-image: url(../../images/falcon9/09.jpg);
 }
 
 /*# sourceMappingURL=style.css.map */
