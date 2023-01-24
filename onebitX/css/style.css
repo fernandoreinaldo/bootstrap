@@ -135,5 +135,12 @@
 .container00.carrossel05 {
   background-image: url(../../images/falcon9/07.jpg);
 }
+.container00.container07 {
+  background-image: url(../../images/falcon9/08.jpg);
+}
+
+.carouselText {
+  background-color: black;
+}
 
 /*# sourceMappingURL=style.css.map */
