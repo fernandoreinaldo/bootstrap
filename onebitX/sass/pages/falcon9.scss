@@ -54,15 +54,31 @@
     }
 }
 
-.falcon9Desc{
+.falcon9Desc {
     font-size: 22px;
     width: 640px;
     line-height: 50px;
 }
 
-.containerFalcon9Desc{
+.containerFalcon9Desc {
     display: grid;
     height: 90vh;
     align-items: center;
     justify-content: left;
+}
+
+#overViewPosition {
+    width: 500px;
+    margin-left: 13%;
+    padding-top: 15%;
+}
+
+.carrosselSlide {
+    img {
+        height: 100vh;
+    }
+}
+
+.carouselText {
+    background-color: black;
 }

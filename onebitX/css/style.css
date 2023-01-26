@@ -172,4 +172,18 @@
   justify-content: left;
 }
 
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carouselText {
+  background-color: black;
+}
+
 /*# sourceMappingURL=style.css.map */
