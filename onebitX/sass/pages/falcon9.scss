@@ -38,6 +38,13 @@
     font-weight: 514;
 }
 
+.titleContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80vh;
+}
+
 .numbers {
     background-color: black;
     height: 40vh;
@@ -81,4 +88,25 @@
 
 .carouselText {
     background-color: black;
+}
+
+.downloadDesc {
+    background-color: black;
+    height: 85vh;
+    padding-top: 240px;
+
+    a {
+        text-decoration: none;
+        color: white;
+        border-bottom: 1px solid white;
+
+        &:hover {
+            color: $link-hover;
+        }
+    }
+}
+
+.btn{
+    border: 2px solid white;
+    margin-right: 10px;
 }
