@@ -45,6 +45,9 @@
     height: 80vh;
 }
 
+.subTitleFalcon9 {
+    font-size: 20px}
+
 .numbers {
     background-color: black;
     height: 40vh;
@@ -106,7 +109,27 @@
     }
 }
 
-.btn{
+.btn {
     border: 2px solid white;
     margin-right: 10px;
+}
+
+@media (max-width: 768px) { 
+    .numbers{
+        .titleNumb {
+            font-size: 80px;
+        }
+    
+        .subtitleNumb {
+            font-size: 18px;
+        }
+    }
+
+    .falcon9Desc{
+        width: auto;
+    }
+
+    #overViewPosition {
+        padding-top: 30%;
+    }
 }
