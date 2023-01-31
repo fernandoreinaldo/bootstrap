@@ -230,5 +230,14 @@
     padding-top: 30%;
   }
 }
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overViewPosition {
+    width: 500px;
+    margin-left: auto;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
