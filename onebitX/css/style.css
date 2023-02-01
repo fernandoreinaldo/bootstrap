@@ -56,6 +56,11 @@
   color: #555252;
 }
 
+@media (max-width: 449px) {
+  .downloadDesc button {
+    margin: 10px;
+  }
+}
 @media (max-width: 405px) {
   .logoPC {
     width: 180px;
@@ -235,8 +240,17 @@
     height: 60vh;
   }
   #overViewPosition {
-    width: 500px;
+    width: auto;
     margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleFalcon9 {
+    font-size: 50px;
+  }
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
   }
 }
 

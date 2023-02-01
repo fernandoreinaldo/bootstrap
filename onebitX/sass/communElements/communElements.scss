@@ -57,19 +57,27 @@
 
 // Media Query
 
+@media(max-width: 449px) {
+    .downloadDesc {
+        button {
+            margin: 10px;
+        }
+    }
+}
+
 @media(max-width: 405px) {
-    .logoPC{
+    .logoPC {
         width: 180px;
         margin-top: 15px;
     }
 
-    .footer{
+    .footer {
         font-size: 10px;
     }
 }
 
 @media(max-width: 350px) {
-    .logoPC{
+    .logoPC {
         width: 150px;
         margin-top: 15px;
     }
