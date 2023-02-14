@@ -52,6 +52,25 @@
   color: #b9b9b9;
 }
 
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: 2px solid white;
+  margin-right: 10px;
+}
+
+.insta {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.insta:hover {
+  color: #b9b9b9;
+}
+
 .copyFR {
   color: #555252;
 }
@@ -200,20 +219,6 @@
 
 .carouselText {
   background-color: black;
-}
-
-.downloadDesc {
-  background-color: black;
-  height: 85vh;
-  padding-top: 240px;
-}
-.downloadDesc a {
-  text-decoration: none;
-  color: white;
-  border-bottom: 1px solid white;
-}
-.downloadDesc a:hover {
-  color: #b9b9b9;
 }
 
 .btn {
