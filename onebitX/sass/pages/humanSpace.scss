@@ -20,7 +20,19 @@
     }
 }
 
-.eartDesc {
+.container01Content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .titleHuman {
+        font-size: 120px;
+    }
+}
+
+.earthDesc {
     background-color: black;
     height: 25vh;
     display: flex;
