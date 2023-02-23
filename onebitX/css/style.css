@@ -284,6 +284,12 @@
 .container01Content .titleHuman {
   font-size: 120px;
 }
+.container01Content .subtitleHuman {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+  font-weight: 300;
+}
 
 .earthDesc {
   background-color: black;
