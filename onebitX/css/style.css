@@ -321,8 +321,17 @@
 }
 
 .containerLeftContent {
-  margin-right: 55%;
+  margin-left: 5%;
   padding-top: 15%;
+}
+
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .container01Content img {
+    width: 150px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
