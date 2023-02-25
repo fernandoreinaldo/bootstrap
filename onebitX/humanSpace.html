@@ -9,6 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- Lib Text CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
     <!-- Link CSS -->
@@ -21,7 +22,7 @@
         <div class="container">
             <header class="header">
                 <nav class="navbar navbar-expand-lg navbar-dark bg-transparent pt-4">
-                    <div class="container-fluid">
+                    <div class="container-fluid" data-aos="fade-down" data-aos-duration="1500">
                         <a href="/index.html">
                             <img src="./images/logo-obc-2021-darkbg.png" alt="logoOBC" class="logoPC img-fluid">
                         </a>
@@ -47,7 +48,7 @@
             </header>
         </div>
 
-        <div class="container text-center container01Content">
+        <div class="container text-center container01Content" data-aos="fade-up" data-aos-duration="1500">
             <p class="h1 titleHuman">HUMAN SPACEFLIGHT</p>
             <p class="subtitleHuman">FAZENDO A VIDA MULTIPLANETÁRIA</p>
 
@@ -56,12 +57,12 @@
     </div>
 
     <div class="container-fluid text-center earthDesc">
-        <p class="textEarthDesc">SpaceX também oferece voos comerciais para orbita terrestre e lunar. Para começar a planejar a sua jornada, por favor contate-nos por <a href="https://instagram.com/fernvndorei" class="insta">@fernvndorei</a>
+        <p class="textEarthDesc" data-aos="flip-right" data-aos-duration="1500">SpaceX também oferece voos comerciais para orbita terrestre e lunar. Para começar a planejar a sua jornada, por favor contate-nos por <a href="https://instagram.com/fernvndorei" class="insta">@fernvndorei</a>
         </p>
     </div>
 
     <div class="container-fluid container00 container09">
-        <div class="containerRightContent">
+        <div class="containerRightContent" data-aos="fade-right" data-aos-duration="1500">
             <p>MISSÃO</p>
             <p class="h2 titleSection">ORBITA DA TERRA</p>
             <p class="subTitle">EXPERIMENTE O PLANETA AZUL A 300KM DE ALTURA</p>
@@ -70,7 +71,7 @@
     </div>
 
     <div class="container-fluid container00 container10">
-        <div class="containerLeftContent">
+        <div class="containerLeftContent" data-aos="fade-up" data-aos-duration="1500">
             <p>MISSÃO</p>
             <p class="h2 titleSection">ESTAÇÃO ESPACIAL</p>
             <p class="subTitle">TRANSPORTANDO HUMANOS PARA O LABORATÓRIO VOADOR NO CÉU</p>
@@ -79,7 +80,7 @@
     </div>
 
     <div class="container-fluid container00 container11">
-        <div class="containerRightContent">
+        <div class="containerRightContent" data-aos="fade-up-left" data-aos-duration="1500">
             <p>MISSÃO</p>
             <p class="h2 titleSection">LUA</p>
             <p class="subTitle">RETORNANDO HUMANOS PARA A NOSSA LUA VIZINHA</p>
@@ -88,7 +89,7 @@
     </div>
 
     <div class="container-fluid container00 container12">
-        <div class="containerLeftContent">
+        <div class="containerLeftContent" data-aos="flip-right" data-aos-duration="1500">
             <p>MISSÃO</p>
             <p class="h2 titleSection">MARTE E ALÉM</p>
             <p class="subTitle">O CAMINHO PARA TORNAR A HUMANINDADE MULTIPLANETÁRIA</p>
@@ -97,12 +98,14 @@
     </div>
 
     <div class="container-fluid text-center downloadDesc">
-        <p>Para mais informações sobre os serviços entre em contato com 
+        <p data-aos="fade-right" data-aos-duration="1500">Para mais informações sobre os serviços entre em contato com 
             <a href="https://instagram.com/fernvndorei" target="blank" class="insta">@fernvndorei</a>
         </p>
 
-        <button type="button" class="btn btn-outline-light p-3">GUIA DO USUÁRIO</button>
-        <button type="button" class="btn btn-outline-light p-3">CAPACIDADES E SERVIÇOS</button>
+        <button type="button" class="btn btn-outline-light p-3" data-aos="flip-right" data-aos-duration="1500">GUIA DO USUÁRIO
+        </button>
+        <button type="button" class="btn btn-outline-light p-3" data-aos="flip-up" data-aos-duration="1500">CAPACIDADES E SERVIÇOS
+        </button>
     </div>
 
     <footer class="container-fluid footer">
@@ -119,6 +122,10 @@
 
 
     <!-- Lib text Script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 
 </html>
