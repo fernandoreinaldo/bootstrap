@@ -332,6 +332,49 @@
   .container01Content img {
     width: 150px;
   }
+  .containerRightContent {
+    margin-left: 15%;
+  }
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textEarthDesc {
+    color: #d8d8d8;
+    font-size: 18px;
+    font-weight: 400;
+    width: auto;
+  }
+}
+@media (max-width: 600px) {
+  .container01Content .titleHuman {
+    font-size: 55px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 25px;
+  }
+  .container01Content img {
+    width: 130px;
+  }
+  .containerRightContent {
+    margin-left: 5%;
+  }
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSection {
+    font-size: 40px;
+  }
+}
+@media (max-width: 350px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 20px;
+  }
+  .container01Content .img {
+    width: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

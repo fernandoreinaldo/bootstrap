@@ -85,4 +85,65 @@
         }
     }
 
+    .containerRightContent {
+        margin-left: 15%;
+    }
+
+    .containerLeftContent {
+        margin-left: 15%;
+    }
+
+    .earthDesc {
+    
+        .textEarthDesc {
+            color: $table-item;
+            font-size: 18px;
+            font-weight: 400;
+            width: auto;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container01Content {
+        .titleHuman {
+            font-size: 55px;
+        }
+
+        .subtitleHuman {
+            font-size: 25px;
+        }
+
+        img {
+            width: 130px;
+        }
+    }
+
+    .containerRightContent {
+        margin-left: 5%;
+    }
+
+    .containerLeftContent {
+        margin-left: 5%;
+    }
+
+    .titleSection {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 350px) {
+    .container01Content {
+        .titleHuman {
+            font-size: 40px;
+        }
+
+        .subtitleHuman {
+            font-size: 20px;
+        }
+
+        .img {
+            width: 100px;
+        }
+    }
 }
